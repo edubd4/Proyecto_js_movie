@@ -53,19 +53,17 @@
                     <h3>Agregar pelicula</h3>
                     <form id="formulario">
                         <label>Nombre</label>
-                        <input id="titulo" class="form-control" type="text" required />
+                        <input id="nombre" class="form-control" type="text" required />
                         <label>Categoria</label>
-                        <input id="Cat" class="form-control" type="text">
+                        <input id="cat" class="form-control" type="text">
                         <label>Descripción</label>
                         <textarea id="desc" class="form-control" required></textarea>
                         <label>Imagen</label>
                         <input id="imagen" class="form-control" type="text" placeholder="Ingrese una url" required />
+                        <br>
                         <label>Publicado</label>
-                        <select id="mentor" class="form-control" required>
+                        <input id="public" type="checkbox">
 
-                            <option value="si">si</option>
-                            <option value="no">no</option>
-                        </select>
 
                         <button class="btn btn-primary mt-3 float-end">Guardar</button>
                     </form>
@@ -85,6 +83,7 @@
                         </thead>
                         <tbody id="table_body">
                             <!-- celdas -->
+
                         </tbody>
                     </table>
                 </div>
